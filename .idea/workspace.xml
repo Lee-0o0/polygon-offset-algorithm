@@ -6,7 +6,25 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd15a67d-82fd-4d02-a318-a08889e870a3" name="Default Changelist" comment="" />
+    <list default="true" id="dd15a67d-82fd-4d02-a318-a08889e870a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A new offset algorithm for closed 2D lines with islands.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/README/image-20210306160826757.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/README/image-20210306162558762.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/README/image-20210306162622827.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/README/image-20210306162939546.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/README/image-20210306163016457.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/README/image-20210306163048778.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/README/image-20210306163117534.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/README/image-20210306163141596.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/5edge.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file/5edge.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/polygon_offset/com/lee/algorithm/OffsetAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/polygon_offset/com/lee/algorithm/OffsetAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/polygon_offset/com/lee/test/OffsetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/polygon_offset/com/lee/test/OffsetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lee/algorithm/OffsetAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lee/algorithm/OffsetAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/lee/test/OffsetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/lee/test/OffsetTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -31,16 +52,21 @@
     </option>
   </component>
   <component name="ProjectId" id="1pKIq6a0xAnkrOVpIbyg0kIkcLc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/lee/util" />
@@ -59,7 +85,7 @@
       <recent name="F:\project\polygon_offset\src\com\lee\entity" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OffsetTest.testTunnel">
+  <component name="RunManager" selected="JUnit.OffsetTest.testStar">
     <configuration name="OffsetTest.test5Edge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="polygon_offset" />
       <extension name="coverage">
@@ -142,9 +168,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OffsetTest.testTunnel" />
-        <item itemvalue="JUnit.OffsetTest.test5Edge" />
         <item itemvalue="JUnit.OffsetTest.testStar" />
+        <item itemvalue="JUnit.OffsetTest.test5Edge" />
+        <item itemvalue="JUnit.OffsetTest.testTunnel" />
         <item itemvalue="JUnit.OffsetTest.testRectangle" />
         <item itemvalue="JUnit.OffsetTest.testTriangle" />
       </list>
@@ -161,11 +187,16 @@
       <option name="presentableId" value="Default" />
       <updated>1614925542991</updated>
       <workItem from="1614925617555" duration="10715000" />
+      <workItem from="1614948902679" duration="533000" />
+      <workItem from="1615012653097" duration="3817000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614937229037">
@@ -184,22 +215,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="104" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1614935410541" />
-    <state width="1236" height="164" key="GridCell.Tab.0.bottom" timestamp="1614944540324">
+    <state width="1237" height="146" key="GridCell.Tab.0.bottom" timestamp="1615019701032">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="164" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1614944540324" />
-    <state width="1236" height="164" key="GridCell.Tab.0.center" timestamp="1614944540324">
+    <state width="1237" height="146" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1615019701032" />
+    <state width="1237" height="146" key="GridCell.Tab.0.center" timestamp="1615019701032">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="164" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1614944540324" />
-    <state width="1236" height="164" key="GridCell.Tab.0.left" timestamp="1614944540324">
+    <state width="1237" height="146" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1615019701032" />
+    <state width="1237" height="146" key="GridCell.Tab.0.left" timestamp="1615019701032">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="164" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1614944540324" />
-    <state width="1236" height="164" key="GridCell.Tab.0.right" timestamp="1614944540324">
+    <state width="1237" height="146" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1615019701032" />
+    <state width="1237" height="146" key="GridCell.Tab.0.right" timestamp="1615019701032">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="164" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1614944540324" />
+    <state width="1237" height="146" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1615019701032" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1614936851672">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

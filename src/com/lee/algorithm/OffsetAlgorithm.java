@@ -599,8 +599,9 @@ public class OffsetAlgorithm {
                             ArithUtil.mul(vector1.getLength(), vector2.getLength()));
             // 半角公式
             double sin2 = Math.sqrt((1 - cos) / 2);
+//            System.out.println(sin2);
             double L = 1.0;
-            if (Double.compare(0.1, sin2) <= 0) {
+            if (Double.compare(0.0, sin2) != 0) {
                 L = 1.0 / sin2;
             }
             vector.normalize();

@@ -8,6 +8,7 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -27,7 +28,7 @@ public class OffsetTest {
 
     @Test
     public void testStar() throws IOException, InterruptedException {
-        offsetTest("file/star.txt",3.0,10);
+        offsetTest("file/star.txt",4.0,17);
         TimeUnit.HOURS.sleep(1);
     }
 
@@ -39,7 +40,7 @@ public class OffsetTest {
 
     @Test
     public void test5Edge() throws IOException, InterruptedException {
-        offsetTest("file/5edge.txt",8.0,10);
+        offsetTest("file/5edge.txt",5.0,5);
         TimeUnit.HOURS.sleep(1);
     }
 
