@@ -7,23 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd15a67d-82fd-4d02-a318-a08889e870a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A new offset algorithm for closed 2D lines with islands.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/README/image-20210306160826757.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/README/image-20210306162558762.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/README/image-20210306162622827.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/README/image-20210306162939546.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/README/image-20210306163016457.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/README/image-20210306163048778.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/README/image-20210306163117534.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/README/image-20210306163141596.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/5edge.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file/5edge.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/polygon_offset/com/lee/algorithm/OffsetAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/polygon_offset/com/lee/algorithm/OffsetAlgorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/polygon_offset/com/lee/test/OffsetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/polygon_offset/com/lee/test/OffsetTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lee/algorithm/OffsetAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lee/algorithm/OffsetAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/lee/test/OffsetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/lee/test/OffsetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +172,7 @@
       <updated>1614925542991</updated>
       <workItem from="1614925617555" duration="10715000" />
       <workItem from="1614948902679" duration="533000" />
-      <workItem from="1615012653097" duration="3817000" />
+      <workItem from="1615012653097" duration="4241000" />
     </task>
     <servers />
   </component>
@@ -215,22 +199,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="104" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1614935410541" />
-    <state width="1237" height="146" key="GridCell.Tab.0.bottom" timestamp="1615019701032">
+    <state width="1237" height="146" key="GridCell.Tab.0.bottom" timestamp="1615020651885">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="146" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1615019701032" />
-    <state width="1237" height="146" key="GridCell.Tab.0.center" timestamp="1615019701032">
+    <state width="1237" height="146" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1615020651885" />
+    <state width="1237" height="146" key="GridCell.Tab.0.center" timestamp="1615020651885">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="146" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1615019701032" />
-    <state width="1237" height="146" key="GridCell.Tab.0.left" timestamp="1615019701032">
+    <state width="1237" height="146" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1615020651885" />
+    <state width="1237" height="146" key="GridCell.Tab.0.left" timestamp="1615020651885">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="146" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1615019701032" />
-    <state width="1237" height="146" key="GridCell.Tab.0.right" timestamp="1615019701032">
+    <state width="1237" height="146" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1615020651885" />
+    <state width="1237" height="146" key="GridCell.Tab.0.right" timestamp="1615020651885">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="146" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1615019701032" />
+    <state width="1237" height="146" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1615020651885" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1614936851672">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -239,9 +223,9 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="349" y="262" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.720@0.0.1280.720" timestamp="1614941194034" />
-    <state x="28" y="0" key="new project wizard" timestamp="1614935414933">
+    <state x="28" y="0" key="new project wizard" timestamp="1615020648182">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="28" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1614935414933" />
+    <state x="28" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1615020648182" />
   </component>
 </project>
