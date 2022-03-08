@@ -553,7 +553,7 @@ public class OffsetAlgorithm {
         List<com.lee.entity.Vector> out = new ArrayList<>();
 
         for (int i = 0; i < points.size(); i++) {
-
+            //System.out.println("*");
             com.lee.entity.Vector vector1;
             com.lee.entity.Vector vector2;
             if (i == 0) {
@@ -583,13 +583,13 @@ public class OffsetAlgorithm {
                     vector.setX(0.0);
                     vector.setY(1.0);
                 } else {
-                    vector.setX(points.get(i).getX());
-                    double y =
-                            ArithUtil.mul(
-                                    vector.getX(),
-                                    ArithUtil.div(
-                                            -1, ArithUtil.div(vector1.getY(), vector1.getX())));
-                    vector.setY(y);
+                    vector.setX(vector1.getY()*(-1));
+//                    double y =
+//                            ArithUtil.mul(
+//                                    vector.getX(),
+//                                    ArithUtil.div(
+//                                            -1, ArithUtil.div(vector1.getY(), vector1.getX())));
+                    vector.setY(vector1.getX());
                 }
             }
             // 计算偏移距离
@@ -608,10 +608,14 @@ public class OffsetAlgorithm {
             vector.mul(L);
 
             // 结果点
-            Point point =
+            Point point1 =
                     new Point(
                             ArithUtil.add(points.get(i).getX(), vector.getX()),
                             ArithUtil.add(points.get(i).getY(), vector.getY()));
+            Point point2 =
+                    new Point(
+                            ArithUtil.add(points.get(i).getX(), -1*vector.getX()),
+                            ArithUtil.add(points.get(i).getY(), -1*vector.getY()));
             // 判断结果点是在多边形外面还是里面，射线法
             List<LineSegment> contour = new ArrayList<>();
             for (int m = 0; m < points.size(); m++){
@@ -619,7 +623,13 @@ public class OffsetAlgorithm {
                 contour.add(lineSegment);
             }
 
-            boolean inPolygon = MathUtil.isInPolygon(contour, point);
+            boolean inPolygon = MathUtil.isInPolygon(contour, point1);
+            boolean inPolygon2 = MathUtil.isInPolygon(contour, point2);
+//            if((inPolygon && inPolygon2) || (!inPolygon && inPolygon2)){
+//
+//                continue;
+//            }
+
             com.lee.entity.Vector pointToIn = null;
             com.lee.entity.Vector pointToOut = null;
             if (inPolygon) {

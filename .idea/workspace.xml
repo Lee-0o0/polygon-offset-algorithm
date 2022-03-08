@@ -7,7 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd15a67d-82fd-4d02-a318-a08889e870a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lee/test/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/polygon_offset/com/lee/algorithm/OffsetAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/polygon_offset/com/lee/algorithm/OffsetAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/polygon_offset/com/lee/test/OffsetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/polygon_offset/com/lee/test/OffsetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polygon_offset.iml" beforeDir="false" afterPath="$PROJECT_DIR$/polygon_offset.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lee/algorithm/OffsetAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lee/algorithm/OffsetAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/lee/test/OffsetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/lee/test/OffsetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +47,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -49,11 +55,12 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/lee/util" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3045977" />
@@ -69,8 +76,9 @@
       <recent name="F:\project\polygon_offset\src\com\lee\entity" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OffsetTest.testStar">
-    <configuration name="OffsetTest.test5Edge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OffsetTest.testTunnel">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lee.test.Program" />
       <module name="polygon_offset" />
       <extension name="coverage">
         <pattern>
@@ -78,10 +86,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lee.test" />
-      <option name="MAIN_CLASS_NAME" value="com.lee.test.OffsetTest" />
-      <option name="METHOD_NAME" value="test5Edge" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,14 +167,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OffsetTest.testStar" />
-        <item itemvalue="JUnit.OffsetTest.test5Edge" />
         <item itemvalue="JUnit.OffsetTest.testTunnel" />
+        <item itemvalue="Application.Program" />
         <item itemvalue="JUnit.OffsetTest.testRectangle" />
         <item itemvalue="JUnit.OffsetTest.testTriangle" />
+        <item itemvalue="JUnit.OffsetTest.testStar" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -173,59 +189,47 @@
       <workItem from="1614925617555" duration="10715000" />
       <workItem from="1614948902679" duration="533000" />
       <workItem from="1615012653097" duration="4241000" />
+      <workItem from="1646741928146" duration="1873000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="96" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614937229037">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="96" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1614937229037" />
-    <state x="446" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1614940914459">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="446" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1614940914459" />
-    <state x="371" y="150" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1614936835381">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="371" y="150" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.720@0.0.1280.720" timestamp="1614936835381" />
-    <state x="421" y="104" key="FileChooserDialogImpl" timestamp="1614935410541">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="421" y="104" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1614935410541" />
-    <state width="1237" height="146" key="GridCell.Tab.0.bottom" timestamp="1615020651885">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1237" height="146" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1615020651885" />
-    <state width="1237" height="146" key="GridCell.Tab.0.center" timestamp="1615020651885">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1237" height="146" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1615020651885" />
-    <state width="1237" height="146" key="GridCell.Tab.0.left" timestamp="1615020651885">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1237" height="146" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1615020651885" />
-    <state width="1237" height="146" key="GridCell.Tab.0.right" timestamp="1615020651885">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1237" height="146" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1615020651885" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1614936851672">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1614936851672" />
-    <state x="349" y="262" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1614941194034">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="349" y="262" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.720@0.0.1280.720" timestamp="1614941194034" />
-    <state x="28" y="0" key="new project wizard" timestamp="1615020648182">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="28" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1615020648182" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/com/lee/test/OffsetTest.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lee/algorithm/OffsetAlgorithm.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="Double.compare(points.get(i).getX(),32.758) == 0" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/com/lee/algorithm/OffsetAlgorithm.java</url>
+          <line>555</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

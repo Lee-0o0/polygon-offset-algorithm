@@ -34,7 +34,7 @@ public class OffsetTest {
 
     @Test
     public void testTunnel() throws IOException, InterruptedException {
-        offsetTest("file/tunnel.txt",3.0,25);
+        offsetTest("file/tunnel.txt",2.0,30);
         TimeUnit.HOURS.sleep(1);
     }
 
